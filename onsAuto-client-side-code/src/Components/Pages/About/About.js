@@ -10,14 +10,14 @@
 // const About = () => {
 //   const [userOrders, setUserOrders] = useState([]);
 //   useEffect(() => {
-//     fetch("https://sleepy-taiga-46834.herokuapp.com/booking")
+//     fetch("https://ons-auto-server-side-code.vercel.app/booking")
 //       .then((res) => res.json())
 //       .then((data) => setUserOrders(data));
 //   }, []);
 //   const handleDeleteUserService = (id) => {
 //     const proceed = window.confirm("Are you sure, you want to delete?", id);
 //     if (proceed) {
-//       const url = `https://sleepy-taiga-46834.herokuapp.com/booking/${id}`;
+//       const url = `https://ons-auto-server-side-code.vercel.app/booking/${id}`;
 //       fetch(url, {
 //         method: "DELETE",
 //       })
@@ -116,14 +116,14 @@ export default function About() {
 
   const [userOrders, setUserOrders] = React.useState([]);
   React.useEffect(() => {
-    fetch("https://sleepy-taiga-46834.herokuapp.com/booking")
+    fetch("https://ons-auto-server-side-code.vercel.app/booking")
       .then((res) => res.json())
       .then((data) => setUserOrders(data));
   }, []);
   const handleDeleteUserService = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete?", id);
     if (proceed) {
-      const url = `https://sleepy-taiga-46834.herokuapp.com/booking/${id}`;
+      const url = `https://ons-auto-server-side-code.vercel.app/booking/${id}`;
       fetch(url, {
         method: "DELETE",
       })

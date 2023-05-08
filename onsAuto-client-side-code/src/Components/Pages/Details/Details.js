@@ -37,7 +37,7 @@ const Details = () => {
       condition: "pending",
       car_Detail: itemDetail[0],
     };
-    fetch("https://sleepy-taiga-46834.herokuapp.com/booking", {
+    fetch("https://ons-auto-server-side-code.vercel.app/booking", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -57,7 +57,7 @@ const Details = () => {
   };
 
   useEffect(() => {
-    fetch("https://sleepy-taiga-46834.herokuapp.com/products")
+    fetch("https://ons-auto-server-side-code.vercel.app/products")
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch();

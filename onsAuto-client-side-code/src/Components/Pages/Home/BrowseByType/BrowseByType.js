@@ -14,7 +14,7 @@ const BrowseByType = () => {
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 ">
             <div className="col">
               <img
-                src="https://content.homenetiol.com/698/2163991/1920x1080/9c6dde17ee304dd583b75406cbdab4a0.jpg"
+                src="https://i.ibb.co/Btkb7x9/8bedc0511bcb4397a94d3c72262cdc6c.jpg"
                 className="card-img img-fluid"
                 alt="..."
               />
@@ -25,7 +25,7 @@ const BrowseByType = () => {
             </div>
             <div className="col">
               <img
-                src="https://content.homenetiol.com/698/2163991/1920x1080/84e4bce9636445dcb744c4ab32954153.jpg"
+                src="https://i.ibb.co/2vnTg13/4474fa5904a4428d9c65e13ca63b1644.jpg"
                 className="img-fluid"
                 alt="..."
               />
@@ -36,7 +36,7 @@ const BrowseByType = () => {
             </div>
             <div className="col">
               <img
-                src="https://content.homenetiol.com/698/2163991/1920x1080/bcf42c1dbc734902b4c656a12ea82097.jpg"
+                src="https://i.ibb.co/GRWt278/image.png"
                 className="card-img img-fluid"
                 alt="..."
               />
@@ -47,7 +47,7 @@ const BrowseByType = () => {
             </div>
             <div className="col">
               <img
-                src="https://content.homenetiol.com/698/2163991/1920x1080/01a1594f561344bfb2b0224083c46759.jpg"
+                src="https://i.ibb.co/ccBGw9V/01a1594f561344bfb2b0224083c46759.jpg"
                 className="card-img img-fluid"
                 alt="..."
               />

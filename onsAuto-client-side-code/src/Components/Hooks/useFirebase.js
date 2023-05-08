@@ -68,7 +68,7 @@ const useFirebase = () => {
   // Save User Information
   const userData = (email, displayName, method) => {
     const user = { email, displayName };
-    fetch("https://sleepy-taiga-46834.herokuapp.com/users", {
+    fetch("https://ons-auto-server-side-code.vercel.app/users", {
       method: method,
       headers: {
         "content-type": "application/json",
@@ -122,7 +122,7 @@ const useFirebase = () => {
   };
 
   useEffect(() => {
-    fetch(`https://sleepy-taiga-46834.herokuapp.com/users/${user.email}`)
+    fetch(`https://ons-auto-server-side-code.vercel.app/users/${user.email}`)
       .then((res) => res.json())
       .then((data) => setAdmin(data.admin));
   }, [user.email]);

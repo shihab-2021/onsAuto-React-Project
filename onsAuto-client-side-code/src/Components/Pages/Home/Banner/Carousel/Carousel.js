@@ -15,23 +15,19 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 const images = [
   {
     label: "Chevrolet Camaro 2SS 1LE",
-    imgPath:
-      "https://content.homenetiol.com/698/2163991/1920x1080/bcf42c1dbc734902b4c656a12ea82097.jpg",
+    imgPath: "https://i.ibb.co/GRWt278/image.png",
   },
   {
     label: "Chevrolet Tahoe PREMIER NAV",
-    imgPath:
-      "https://content.homenetiol.com/698/2163991/1920x1080/207949fd747545b2bf1f198d09b3088e.jpg",
+    imgPath: "https://i.ibb.co/dG7NGWn/207949fd747545b2bf1f198d09b3088e.jpg",
   },
   {
     label: "FIAT 124 Spider CLASSICA",
-    imgPath:
-      "https://content.homenetiol.com/698/2163991/1920x1080/988e7ca62cd847c788870dfa6a073c39.jpg",
+    imgPath: "https://i.ibb.co/2vnTg13/4474fa5904a4428d9c65e13ca63b1644.jpg",
   },
   {
     label: "Ford Flex SEL",
-    imgPath:
-      "https://content.homenetiol.com/698/2163991/1920x1080/4669c7badb4645b9a66648ead4c231c6.jpg",
+    imgPath: "https://i.ibb.co/wwxTktT/c31e60a806514ecbb65a7339ac9b7663.jpg",
   },
 ];
 

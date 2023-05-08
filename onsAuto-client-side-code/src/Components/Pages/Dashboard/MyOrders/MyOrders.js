@@ -7,7 +7,7 @@ const MyOrders = () => {
   const [userOrders, setUserOrders] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    const url = `https://sleepy-taiga-46834.herokuapp.com/booking?email=${user.email}`;
+    const url = `https://ons-auto-server-side-code.vercel.app/booking?email=${user.email}`;
     fetch(url, {
       headers: {
         authorization: `Bearer ${token}`,
@@ -21,7 +21,7 @@ const MyOrders = () => {
   const handleDeleteUserService = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete?", id);
     if (proceed) {
-      const url = `https://sleepy-taiga-46834.herokuapp.com/booking/${id}`;
+      const url = `https://ons-auto-server-side-code.vercel.app/booking/${id}`;
       fetch(url, {
         method: "DELETE",
       })

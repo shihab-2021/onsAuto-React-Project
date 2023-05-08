@@ -12,7 +12,7 @@ const Banner = () => {
       style={{
         minHeight: "400px",
         background:
-          "linear-gradient(#00000094, #00000094), url(https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/17q4/692997/2018-rolls-royce-phantom-viii-first-drive-review-car-and-driver-photo-693026-s-original.jpg?fill=2:1&resize=1200:*) no-repeat center center / cover",
+          "linear-gradient(#00000094, #00000094), url(https://i.ibb.co/BBGNRws/2018-rolls-royce-phantom-viii-first-drive-review-car-and-driver-photo-693026-s-original.jpg) no-repeat center center / cover",
       }}
     >
       <div className="row align-items-center container mx-auto">

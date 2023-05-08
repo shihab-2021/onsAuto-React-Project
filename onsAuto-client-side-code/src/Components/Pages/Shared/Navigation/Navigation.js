@@ -9,7 +9,7 @@ const Navigation = () => {
   const { user, logout, token } = useAuth();
   const [userOrders, setUserOrders] = useState([]);
   useEffect(() => {
-    const url = `https://sleepy-taiga-46834.herokuapp.com/booking?email=${user.email}`;
+    const url = `https://ons-auto-server-side-code.vercel.app/booking?email=${user.email}`;
     fetch(url, {
       headers: {
         authorization: `Bearer ${token}`,

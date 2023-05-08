@@ -22,7 +22,7 @@ const AddAProduct = () => {
   };
   const handleProductDateSubmit = (e) => {
     const product = { ...carData };
-    fetch("https://sleepy-taiga-46834.herokuapp.com/products", {
+    fetch("https://ons-auto-server-side-code.vercel.app/products", {
       method: "POST",
       headers: {
         "content-type": "application/json",

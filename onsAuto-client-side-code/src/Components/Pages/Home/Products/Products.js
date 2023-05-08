@@ -6,7 +6,7 @@ import StarIcon from "@mui/icons-material/AccessAlarm";
 const Products = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("https://sleepy-taiga-46834.herokuapp.com/products")
+    fetch("https://ons-auto-server-side-code.vercel.app/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

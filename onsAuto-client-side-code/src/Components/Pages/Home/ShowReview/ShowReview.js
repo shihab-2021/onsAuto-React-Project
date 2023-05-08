@@ -6,7 +6,7 @@ const ShowReview = () => {
   const [reviews, setReviews] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    fetch("https://sleepy-taiga-46834.herokuapp.com/reviews")
+    fetch("https://ons-auto-server-side-code.vercel.app/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data))
       .then(() => setIsLoading(false));
